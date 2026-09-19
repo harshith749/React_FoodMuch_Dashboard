@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+
+.navSection{
+  border: 1px solid white;
+  height: 70px;
+  background-color: orchid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+   padding: 0 20px;
+   font-size: medium;
+   margin-bottom: 0px;
+
+}
+
+
+.sideBarSection{
+  border: 1px solid black;
+  background-color:lightslategray;
+  width: 100%;
+  max-width: 14%;
+  height:88vh;
+  margin-top: 0px;
+}
+
+.sideBarSection ul li{
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+}
+
+.sideBarSection ul{
+  padding-left: 0px;
+}
+
+.collectionSec{
+display: flex;
+}
+
+.loginSection{
+  border: 1px solid blueviolet;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  margin-top: 0px;
+}
+
+.loginSection input{
+  background-color:transparent;
+  color: black;
+  width: 100%;
+  max-width: 80%;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.loginSection button{
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.authForm{
+  text-align: left;
+  max-width: 50%;
+  width: 100%;
+  padding-left: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.registerSection{
+  border: 1px solid blueviolet;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+.registerSection input{
+  background-color:transparent;
+  color: black;
+  width: 100%;
+  max-width: 80%;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.firmSection{
+ border: 1px solid blueviolet;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.tableForm{
+  text-align: left;
+  max-width: 50%;
+  width: 100%;
+  padding-left: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.firmSection input{
+  background-color:transparent;
+  color: black;
+  width: 100%;
+  max-width: 80%;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+.productSection{
+   border: 1px solid blueviolet;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.productSection input{
+  background-color:transparent;
+  color: black;
+  width: 100%;
+  max-width: 80%;
+  height: 26px;
+  margin-bottom: 10px;
+}
+
+/* check box inputs */
+
+.check-inp{
+  margin-top: 20px;
+  width: 100%;
+  max-width: 80%;
+  display: flex;
+}
+
+.inputCont{
+   
+   display: flex;
+  
+}
+.checkBoxCont{
+   margin-left: 20px;
+   display: flex;
+}
+
+.check-inp input{
+  width: 30px;
+  color:white;
+}
+
+.product-table{
+  border: 2px solid black;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.product-table th, .product-table td{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
